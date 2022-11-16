@@ -13,6 +13,6 @@ void attackTest() {
         demoHero.attack(slime); // over kill
     }
     slime.attack(demoHero);
-    assertEquals(defaultHeroHp, demoHero.hitPoint);
+    assertEquals(defaultHeroHp, demoHero.getHeroHitpoint());
 }
 }
